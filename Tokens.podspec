@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'Tokens'
-    s.version      = '1.0.4'
+    s.version      = '1.0.5'
     s.summary      = 'A library for managing design tokens.'
     s.description  = <<-DESC
                                         Tokens is a library that provides a centralized way to manage design tokens, such as colors, typography, spacing, etc.
