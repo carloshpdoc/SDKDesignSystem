@@ -13,12 +13,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '15.0'
     s.source_files = "Tokens/Classes/**/*.{swift}"
     s.resource_bundles = {
-      'Tokens' => ['Tokens/Resources/**/*']
+        'Tokens' => ['Tokens/Resources/**/*']
     }
     s.swift_version = '5.7'
 end
-
-# Pod::Spec.new do |s|
-#     s.homepage         = "https://example.com/SDKDesignSystem"
-#     s.source           = { :git => "URL_DO_REPOSITÓRIO_GIT", :tag => s.version.to_s }
-#   end

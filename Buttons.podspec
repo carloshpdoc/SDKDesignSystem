@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '15.0'
     s.source_files = "Buttons/Classes/**/*.{swift}"
     s.resource_bundles = {
-      'Buttons' => ['Buttons/Resources/**/*']
+        'Buttons' => ['Buttons/Resources/**/*']
     }
     s.swift_version = '5.7'
 end
