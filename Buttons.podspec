@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'Buttons'
-    s.version      = '1.0.1'
+    s.version      = '1.0.3'
     spec.summary      = 'A library for custom buttons.'
     spec.description  = 'Buttons is a library that provides a collection of customizable buttons for iOS applications.'
     spec.homepage     = 'https://github.com/carloshpdoc/SDKDesignSystem'
