@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/carloshpdoc/SDKDesignSystem.git', :tag => s.version.to_s }
     s.platform     = :ios, '15.0'
     s.source_files = "Tokens/Classes/**/*.{swift}"
-    s.resource_bundles = {
-        'Tokens' => ['Tokens/Resources/**/*']
-    }
+    s.resource_bundle = { 'Tokens': 'Tokens/Resources/**/*.{png,xib,xcassets,jsbundle,strings}' }
     s.swift_version = '5.7'
 end
