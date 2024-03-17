@@ -3,7 +3,7 @@ import Foundation
 public struct TokenDefinitions {
     var test: String
 
-    init(test: String) {
+    public init(test: String) {
         self.test = test
     }
 
