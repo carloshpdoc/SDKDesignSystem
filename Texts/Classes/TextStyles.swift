@@ -4,7 +4,7 @@ public struct TextStyles {
     var parameters: String
 
     public init(parameters: String) {
-        parameters = parameters
+        self.parameters = parameters
     }
 
     public func testSendTextStyles() -> String {
