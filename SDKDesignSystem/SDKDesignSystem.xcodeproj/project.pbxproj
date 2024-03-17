@@ -15,6 +15,8 @@
 		9B331EF42BA5B3100094529B /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B331EF22BA5B3100094529B /* TextStyles.swift */; };
 		9B331EF92BA5B3160094529B /* TokenDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B331EF72BA5B3160094529B /* TokenDefinitions.swift */; };
 		9B331EFD2BA5BB4B0094529B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B331EFC2BA5BB4B0094529B /* Config.swift */; };
+		9B331F1D2BA671420094529B /* Tokens.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B331F1C2BA671420094529B /* Tokens.xcassets */; };
+		9B331F1F2BA6715B0094529B /* Tokens-Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B331F1E2BA6715B0094529B /* Tokens-Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		9B331EF22BA5B3100094529B /* TextStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 		9B331EF72BA5B3160094529B /* TokenDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenDefinitions.swift; sourceTree = "<group>"; };
 		9B331EFC2BA5BB4B0094529B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		9B331F1C2BA671420094529B /* Tokens.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tokens.xcassets; sourceTree = "<group>"; };
+		9B331F1E2BA6715B0094529B /* Tokens-Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "Tokens-Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 		9B331EF82BA5B3160094529B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9B331F1C2BA671420094529B /* Tokens.xcassets */,
+				9B331F1E2BA6715B0094529B /* Tokens-Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -280,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B331F1D2BA671420094529B /* Tokens.xcassets in Resources */,
+				9B331F1F2BA6715B0094529B /* Tokens-Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
